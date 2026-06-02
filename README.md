@@ -11,6 +11,11 @@ If you have a soldering iron and some patience, you can probably put it together
 The machine is built around the **[Goauld SD project](https://github.com/jabadiagm/MSXgoauldSD_tn20k)** by Javier Abadia.
 
 ![Stargate](photos/imgs/stargate.jpg)
+## Selling Stargate
+
+Stargate wasn't built to be a commercial product, but as an open source project, nothing stops you from using it that way. All I ask is that you don't modify the original files in any way.
+
+Do not modify the original files in any way or form.
 
 ## Goauld SD project
 
