@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TL2203EE
+#/1063456/1560834/2.50/6/2/Switch
+DEF TL2203EE S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "TL2203EE" 1050 200 50 H V L CNN
+F2 "TL2203EE" 1050 100 50 H I L CNN
+F3 "https://configured-product-images.s3.amazonaws.com/2D/specs/TL2203EE.pdf" 1050 0 50 H I L CNN
+F4 "PUSHBUTTON, 100mA, 30VDC SPST, Off-On Through Hole" 1050 -100 50 H I L CNN "Description"
+F5 "10" 1050 -200 50 H I L CNN "Height"
+F6 "612-TL2203EE" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL2203EE?qs=NAnG0cOyeN2PV8J23BUS2A%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "E-Switch" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL2203EE" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X NC_1 3 0 -200 200 R 50 50 0 0 P
+X NO_2 4 1200 0 200 L 50 50 0 0 P
+X COM_2 5 1200 -100 200 L 50 50 0 0 P
+X NC_2 6 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

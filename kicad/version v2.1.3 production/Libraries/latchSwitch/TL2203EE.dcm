@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL2203EE
+D PUSHBUTTON, 100mA, 30VDC SPST, Off-On Through Hole
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/TL2203EE.pdf
+$ENDCMP
+#
+#End Doc Library

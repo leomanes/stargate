@@ -1,0 +1,220 @@
+(footprint "ledstrip_end"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 1.27mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 1.27mm single row")
+	(property "Reference" "J13"
+		(at -1.6581 -3.0734 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "51942ccc-e2da-40ef-9ff9-5c01a4625fcf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Value" "RGB Strip"
+		(at -1.625599 -1.9812 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "04ca568e-bccd-4f79-9122-a7f9d966b926")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11555120-0dc3-46de-ac02-2c1d92fb282f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x03, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f2b0e7-4727-4c08-bbf9-9777281200bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.705601 1.439399)
+		(end -3.705599 -0.880599)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "4bd8cfa9-4759-4437-a741-949c8d128eca")
+	)
+	(fp_line
+		(start -3.705599 -0.880599)
+		(end 0.389399 -0.8806)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1f1686f5-98d4-4648-9396-c2be95815e72")
+	)
+	(fp_line
+		(start 0.389399 1.4732)
+		(end 0.389399 -0.8806)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f12fd071-23e6-4fb8-bb7e-189463a720de")
+	)
+	(fp_line
+		(start -4.035601 -1.2706)
+		(end -4.035601 2.0574)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "d8d9e81e-6d0a-4c54-8f56-66a1ca9ffb36")
+	)
+	(fp_line
+		(start -4.035601 2.0574)
+		(end 0.784398 2.0574)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "674ccc1c-35e9-4bbd-8a83-333223f19e12")
+	)
+	(fp_line
+		(start 0.784398 -1.2706)
+		(end -4.035601 -1.2706)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "2a2c470e-2acb-4d8b-8252-2eb0d82e3983")
+	)
+	(fp_line
+		(start 0.784398 2.0574)
+		(end 0.784398 -1.2706)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "c4aa92e5-f27a-4753-a35b-eb7b17f9f7be")
+	)
+	(fp_line
+		(start -3.530601 -0.7706)
+		(end 0.279399 -0.7706)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e7d50726-cd40-4c77-a880-8d48fdc5f387")
+	)
+	(fp_line
+		(start -3.530601 0.8044)
+		(end -3.530601 -0.7706)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "d816da22-e193-40fc-b990-7e9ee15a0a51")
+	)
+	(fp_line
+		(start 0.279399 -0.7706)
+		(end 0.279399 0.8636)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1ab8eb26-db0b-4978-9825-7301542c9e83")
+	)
+	(fp_text user "+ D -"
+		(at 0.1016 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "68a78e6d-5110-4c42-b6b3-1deb1a103d0a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.498599 4.2672 180)
+		(layer "B.Fab")
+		(uuid "01b26f34-0351-492f-b3d1-384811b524b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.355599 0.2794 270)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8373b692-857f-4cfa-a178-3df370dbbf30")
+	)
+	(pad "2" thru_hole circle
+		(at -1.6256 0.2794 270)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27f26383-fcdf-429e-9003-2964ec4b848a")
+	)
+	(pad "3" thru_hole circle
+		(at -2.895599 0.2794 270)
+		(size 1 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8854de11-d1da-4838-86ab-ebe6d737f80c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/led strip/ledStrip.STEP"
+		(offset
+			(xyz -1.6 -2.7 -2.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 180)
+		)
+	)
+)

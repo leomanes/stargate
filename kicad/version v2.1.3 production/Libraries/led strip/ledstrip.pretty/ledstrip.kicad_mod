@@ -1,0 +1,225 @@
+(footprint "ledstrip"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 1.27mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 1.27mm single row")
+	(property "Reference" "J13"
+		(at -2.3114 -1.4224 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c7227c3b-3dfc-444d-91cc-da20faa7ae19")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RGB Strip"
+		(at -2.286 -1.9304 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "53e4aa51-1244-4b9f-b19d-52df933112e6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fd18ae2-83e3-42a9-a8d9-0c29592c6841")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x03, script generated"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d52aa3f-edbe-4b26-bd56-f38e78d088f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5212 -0.880599)
+		(end 0.389399 -0.8806)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f1686f5-98d4-4648-9396-c2be95815e72")
+	)
+	(fp_line
+		(start -2.2098 3.048)
+		(end -2.2098 4.5974)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4ea8953-9d9e-473e-b711-482972e37ed9")
+	)
+	(fp_line
+		(start -2.2098 4.5974)
+		(end -2.667 4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb38e708-0801-41fb-a0a2-4ca0c0274c14")
+	)
+	(fp_line
+		(start -2.2098 4.5974)
+		(end -1.737264 4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7270d1e-1a33-4786-82fa-d219a8488dc2")
+	)
+	(fp_line
+		(start 0.389399 1.4478)
+		(end 0.389399 -0.8806)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f12fd071-23e6-4fb8-bb7e-189463a720de")
+	)
+	(fp_line
+		(start 0.42929 -0.90486)
+		(end -3.73631 -0.90486)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a5d09c70-0f36-47b8-94eb-5e8cd92223fe")
+	)
+	(fp_line
+		(start 0.42929 1.48274)
+		(end 0.42929 -0.90486)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "461c6dc9-b921-4cb4-babf-51fbe211bd34")
+	)
+	(fp_line
+		(start -4.5212 -0.7706)
+		(end 0.279399 -0.7706)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e7d50726-cd40-4c77-a880-8d48fdc5f387")
+	)
+	(fp_line
+		(start -4.5085 1.397)
+		(end 0.2921 1.397)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "60495469-7f41-4d56-b17e-47f551172f13")
+	)
+	(fp_line
+		(start 0.279399 -0.7706)
+		(end 0.279399 1.397)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "1ab8eb26-db0b-4978-9825-7301542c9e83")
+	)
+	(fp_text user "+  D  -"
+		(at -4.5085 2.413 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "68a78e6d-5110-4c42-b6b3-1deb1a103d0a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.0828 3.4036 180)
+		(layer "B.Fab")
+		(uuid "01b26f34-0351-492f-b3d1-384811b524b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.064 0.3048 270)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio -0)
+		(clearance 0)
+		(uuid "8373b692-857f-4cfa-a178-3df370dbbf30")
+	)
+	(pad "2" smd rect
+		(at -2.1844 0.3048 270)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio -0)
+		(clearance 0)
+		(uuid "27f26383-fcdf-429e-9003-2964ec4b848a")
+	)
+	(pad "3" smd rect
+		(at -0.381 0.3048 270)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio -0)
+		(clearance 0)
+		(uuid "8854de11-d1da-4838-86ab-ebe6d737f80c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/led strip/ledStrip.STEP"
+		(offset
+			(xyz -3 -10 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
