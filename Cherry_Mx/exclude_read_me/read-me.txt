@@ -1,0 +1,1 @@
+move all these files to the Cherry_Mx folder above to show the switches on Kicad
