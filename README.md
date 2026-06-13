@@ -61,7 +61,8 @@ https://github.com/jabadiagm/MSXgoauldSD_tn20k
 ## WIP Daughter Board (Internal/External)
 
 > [!NOTE]
-> Additional features are provided through an optional daughter board.
+> Additional features are provided through an optional daughter board.<bR>
+> WIP (no release date yet).
 
 **Ready:**
 
