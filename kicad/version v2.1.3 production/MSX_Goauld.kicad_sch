@@ -1,0 +1,569 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "653bda0a-052e-4184-91a3-34b2055b09c0")
+	(paper "A4")
+	(title_block
+		(title "Stargate Computer")
+		(date "2026-06")
+		(rev "2.1.3")
+		(company "Leo Manes")
+		(comment 1 "v1.0: 10/2025")
+		(comment 2 "v2.0: 12/2025")
+		(comment 3 "v2.1: 01/2026")
+	)
+	(lib_symbols)
+	(sheet
+		(at 139.7 34.29)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02ce5ddc-ca56-499c-a5a2-a5cc800d9e8e")
+		(property "Sheetname" "slots"
+			(at 139.7 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "slots.kicad_sch"
+			(at 139.7 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 34.29)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0779d63e-41f6-484a-9f3e-cabd34fafb27")
+		(property "Sheetname" "Keyboard"
+			(at 48.26 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 48.26 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 97.79)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16bae42b-fb89-4cdd-ba24-7abdffff5fa4")
+		(property "Sheetname" "Amplifier"
+			(at 48.26 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amplifier.kicad_sch"
+			(at 48.26 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 66.04)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e52f751-6b33-4fd6-b6ce-73363dd98dea")
+		(property "Sheetname" "cpu_adapter"
+			(at 109.22 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu_adapter.kicad_sch"
+			(at 109.22 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 34.29)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c7c3075-f943-4a5d-bf83-fae3f4bbb9d0")
+		(property "Sheetname" "cpu"
+			(at 109.22 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 109.22 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 66.04)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5afb1e30-b8c8-4518-8ac6-e203806ef3a8")
+		(property "Sheetname" "casette"
+			(at 48.26 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "casette.kicad_sch"
+			(at 48.26 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 66.04)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "631cc449-481a-4cd4-85d3-adb74e7e44ba")
+		(property "Sheetname" "ppi"
+			(at 78.74 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ppi.kicad_sch"
+			(at 78.74 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 97.79)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6aae50e2-824c-417a-9dac-3849c93f259f")
+		(property "Sheetname" "RGBstrip"
+			(at 78.74 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RGBstrip.kicad_sch"
+			(at 78.74 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 66.04)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c66511c-a71b-4e43-b52b-41cbef7848e2")
+		(property "Sheetname" "psg"
+			(at 139.7 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psg.kicad_sch"
+			(at 139.7 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 66.04)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9abf5103-ab59-4e09-8b26-a280161d8697")
+		(property "Sheetname" "clock"
+			(at 170.18 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock.kicad_sch"
+			(at 170.18 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 34.29)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a33be88f-7d1b-4a28-99bb-ddb64772bb1a")
+		(property "Sheetname" "Power"
+			(at 78.74 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 78.74 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 34.29)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da006501-8fdf-4931-934c-d247532e225a")
+		(property "Sheetname" "wifi"
+			(at 170.18 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifi.kicad_sch"
+			(at 170.18 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 97.79)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddb826e4-40e3-4925-b9e2-d5cf4e946794")
+		(property "Sheetname" "bluetooth"
+			(at 109.22 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bluetooth.kicad_sch"
+			(at 109.22 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MSX_Goauld"
+				(path "/653bda0a-052e-4184-91a3-34b2055b09c0"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
