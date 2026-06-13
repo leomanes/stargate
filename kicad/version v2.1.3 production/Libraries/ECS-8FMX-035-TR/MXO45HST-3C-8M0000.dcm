@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MXO45HST-3C-8M0000
+D Standard Clock Oscillators 8MHz 50ppm 8Pin DIP/Tristate
+K
+F https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

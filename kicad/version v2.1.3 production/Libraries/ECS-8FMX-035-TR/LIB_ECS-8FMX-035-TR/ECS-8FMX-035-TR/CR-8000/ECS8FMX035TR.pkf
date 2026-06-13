@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECS8FMX035TR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECS8FMX035TR")
+        (spec "default")
+    )
+)

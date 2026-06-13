@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-8FMX-035-TR
+D Standard Clock Oscillators 3.579545MHz 5Volts -40C +85C
+K
+F https://ecsxtal.com/store/pdf/ecs-8fx.pdf
+$ENDCMP
+#
+#End Doc Library

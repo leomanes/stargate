@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-8FMX-035-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-01-08:46:58)
+    (mountForm default
+        (footprintRef "ECS8FMX035TR")
+        (spec "System")
+    )
+)

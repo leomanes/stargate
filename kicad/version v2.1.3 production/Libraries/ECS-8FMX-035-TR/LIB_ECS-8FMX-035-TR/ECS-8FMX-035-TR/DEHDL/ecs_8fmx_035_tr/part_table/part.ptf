@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECS_8FMX_035_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ECS", "ECS-8FMX-035-TR" (!) = "", "ECS8FMX035TR", "Other", "520-ECS-8FMX035-TR", "https://www.mouser.co.uk/ProductDetail/ECS/ECS-8FMX-035-TR?qs=GxOUx7aO6nwWL8kP7pjkSQ%3D%3D", "Standard Clock Oscillators 3.579545MHz 5Volts -40C +85C", "https://ecsxtal.com/store/pdf/ecs-8fx.pdf", "4.7 mm"
+END_PART
+
+END.

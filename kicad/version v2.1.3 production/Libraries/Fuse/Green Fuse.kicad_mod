@@ -1,0 +1,198 @@
+(footprint "Green Fuse"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+	(property "Reference" "F1"
+		(at 4.0894 -2.3754 180)
+		(layer "F.SilkS")
+		(uuid "04231f0b-ff34-4571-9aff-6a70d629d576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse_5V"
+		(at 4.0894 2.3646 180)
+		(layer "F.Fab")
+		(uuid "1e915a24-806a-4bfd-8f47-c4191ec2ebe4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bc0668b-89ae-407d-a1b2-37b1d6f761be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse, small symbol"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bdb795a-3dac-4940-ae45-77efc41a22dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.8194 -1.3754)
+		(end 7.3594 -1.3754)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b649271-cda0-45ba-9ec0-059f91287ec8")
+	)
+	(fp_line
+		(start 0.8194 -1.0454)
+		(end 0.8194 -1.3754)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66f4dca8-1eac-466f-8c3c-f975f4696e53")
+	)
+	(fp_line
+		(start 0.8194 1.0346)
+		(end 0.8194 1.3646)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6181b48d-53a5-4e20-9b5d-4a03b149d3b9")
+	)
+	(fp_line
+		(start 0.8194 1.3646)
+		(end 7.3594 1.3646)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b58e96d8-d01f-4119-8378-b8686450d2d0")
+	)
+	(fp_line
+		(start 7.3594 -1.3754)
+		(end 7.3594 -1.0454)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56ce1b90-f628-4683-8e27-eac738907a12")
+	)
+	(fp_line
+		(start 7.3594 1.3646)
+		(end 7.3594 1.0346)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76177104-9871-4f7e-a003-70e032a77807")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8374 -1.5) (xy 9.8638 -1.5) (xy 9.8638 1.5) (xy -1.8374 1.5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b5d24222-c287-4be3-a10d-e2e5ceb63c64")
+	)
+	(fp_line
+		(start 0.2794 -0.0054)
+		(end 0.939399 -0.0054)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c867b219-954a-4f2e-b630-b944d8b26360")
+	)
+	(fp_line
+		(start 7.8994 -0.0054)
+		(end 7.2394 -0.0054)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2057e8e4-121e-43e9-b6eb-f66535c8be5b")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9394 -1.2554) (xy 7.2394 -1.2554) (xy 7.2394 1.2446) (xy 0.9394 1.2446)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bf9cdb15-78a6-4844-90bf-f22483fb2fec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.2926 -2.2606 180)
+		(layer "F.Fab")
+		(uuid "28bc4180-03ca-4c7f-a4d3-4ad8e64e7762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.8128 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c86e05d5-74e6-42b7-849c-2d8fd3ab1848")
+	)
+	(pad "2" thru_hole circle
+		(at 8.7884 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89cda7c0-8fe7-4110-b435-c42043ab9d5c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/Fuse/FUSE.STEP"
+		(offset
+			(xyz 4 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

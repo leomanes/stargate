@@ -1,0 +1,16 @@
+.ECS-8FMX-035-TR :1 ;Standard Clock Oscillators 3.579545MHz 5Volts -40C +85C
+ECS8FMX035TR
+*STM Y
+*NGS
+*PLB 1="TRI-STATE" 2="GROUND" 3="OUTPUT" 4="VCC"
+*MXP 4
+*DFN ECS-8FMX-035-TR
+~!Mouser Part Number (520-ECS-8FMX035-TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ECS/ECS-8FMX-035-TR?qs=GxOUx7aO6nwWL8kP7pjkSQ%3D%3D)
+~!Manufacturer_Name (ECS)
+~!Manufacturer_Part_Number (ECS-8FMX-035-TR)
+~!Link Datasheet (https://ecsxtal.com/store/pdf/ecs-8fx.pdf)
+~!Height (4.7mm)
+~!3D_Model (ECS-8FMX-035-TR)
+ECS-8FMX-035-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

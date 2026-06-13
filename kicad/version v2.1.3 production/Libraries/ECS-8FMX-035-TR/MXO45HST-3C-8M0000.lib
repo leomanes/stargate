@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MXO45HST-3C-8M0000
+#/2070128/1560834/2.50/4/3/Crystal or Oscillator
+DEF MXO45HST-3C-8M0000 Y 0 30 Y Y 1 F N
+F0 "Y" 1050 300 50 H V L CNN
+F1 "MXO45HST-3C-8M0000" 1050 200 50 H V L CNN
+F2 "MXO45HST3C8M0000" 1050 100 50 H I L CNN
+F3 "https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Clock-Oscillators/clock-ocillators-MXO45_MXO45HS-datasheet.pdf" 1050 0 50 H I L CNN
+F4 "Standard Clock Oscillators 8MHz 50ppm 8Pin DIP/Tristate" 1050 -100 50 H I L CNN "Description"
+F5 "6.5" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "CTS" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MXO45HST-3C-8M0000" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X EOH 1 0 -100 200 R 50 50 0 0 P
+X GND 4 1200 -100 200 L 50 50 0 0 P
+X OUTPUT 5 1200 0 200 L 50 50 0 0 P
+X VCC 8 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

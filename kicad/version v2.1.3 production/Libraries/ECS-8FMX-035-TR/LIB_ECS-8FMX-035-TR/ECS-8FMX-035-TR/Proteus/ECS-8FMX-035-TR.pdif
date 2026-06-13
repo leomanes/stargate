@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-8FMX-035-TR"
+   (description "Standard Clock Oscillators 3.579545MHz 5Volts -40C +85C")
+   (family "OSC")
+   (package "ECS8FMX035TR")
+   (attribute "Datasheet Link" "https://ecsxtal.com/store/pdf/ecs-8fx.pdf")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "520-ECS-8FMX035-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-8FMX-035-TR?qs=GxOUx7aO6nwWL8kP7pjkSQ%3D%3D")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-8FMX-035-TR")
+   (gate
+    (symbol "ECS-8FMX-035-TR")
+    (pin "TRI-STATE" 1 PS)
+    (pin "GROUND" 2 PS)
+    (pin "OUTPUT" 3 PS)
+    (pin "VCC" 4 PS)
+   )
+  )
+  (symbol "ECS-8FMX-035-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS8FMX035TR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7 4.612)
+      (pt 7 4.612)
+      (pt 7 -4.612)
+      (pt -7 -4.612)
+      (pt -7 4.612))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8 6.9)
+      (pt 8 6.9)
+      (pt 8 -6.9)
+      (pt -8 -6.9)
+      (pt -8 6.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.4 4.612)
+      (pt 7 4.612)
+      (pt 7 -4.612)
+      (pt 3.6 -4.612))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.6 -4.612)
+      (pt -7 -4.612)
+      (pt -7 4.612)
+      (pt -3.6 4.612))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.6 4.612)
+      (pt 1.6 4.612))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.6 -4.612)
+      (pt 1.6 -4.612))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 -6.4)
+      (arc (pt -2.600 -6.400) (pt -2.700 -6.450) (pt -2.600 -6.350) (start 180.0) (sweep .0))
+      (pt -2.7 -6.4)
+      (arc (pt -2.700 -6.400) (pt -2.700 -6.450) (pt -2.600 -6.350) (start 180.0) (sweep 180.0))
+      (pt -2.6 -6.4))))
+   (leg 1 (pt -2.540 -4.400) (padstack 0))
+   (leg 2 (pt 2.540 -4.400) (padstack 0))
+   (leg 3 (pt 2.540 4.400) (padstack 0))
+   (leg 4 (pt -2.540 4.400) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 3.000 0 0 90.000))
+   )
+   (model "ECS-8FMX-035-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

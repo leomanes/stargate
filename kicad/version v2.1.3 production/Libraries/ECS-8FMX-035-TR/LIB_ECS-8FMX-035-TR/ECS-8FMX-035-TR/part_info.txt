@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-8FMX-035-TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2021-12-01 08:46:58
+Downloaded=2025-10-08 04:58:36
+3D=Y
