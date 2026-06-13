@@ -1,4 +1,4 @@
-# Stargate Parts List & Links (V1.0)
+# Stargate Parts List & Links (V2.1.3)
 
 > I have no idea if the links listed here will work, if the parts are from a reliable vendor or if they are of good quality. Please do your own research.
 
