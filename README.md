@@ -1,5 +1,12 @@
 # Stargate MSX Compatible Computer
 
+> [!NOTE]
+>**Latest updates:**<br>
+>- Version 2.1.3 released<br>
+>  -- new onboard amp module+speaker connectors;<br>
+>  -- Tang Nano PWM audio connected to the mixer.<br>
+>- Kicad files available (Kicad v9.0.2) <br>
+
 Stargate is an MSX compatible computer built using parts that are still available today.
 
 Many original MSX parts are becoming harder to find, more expensive, or counterfeit. Stargate uses a hybrid approach where common parts remain original while rare or unreliable components are replaced with modern alternatives such as the Tang Nano 20K.
