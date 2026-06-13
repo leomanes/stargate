@@ -17,7 +17,8 @@
 | 3.57MHz | 1 | oscilator module xtal | <https://www.aliexpress.us/item/2251832699611090.html> |
 | dd1718pa | 1 | Buck module +-12V (NO PIN option) | <https://www.aliexpress.us/item/3256807659398693.html> |
 | RGB strip | 1 | 5V (2.7mm), 1m | <https://www.aliexpress.us/item/3256806542970058.html> |
-| Amplifier | 1 | Onboard Amp PAM8406 with 50K pot | <https://www.aliexpress.us/item/3256808496954518.html> |
+| Amplifier | 1 | Onboard Amp 5128 | <https://https://www.aliexpress.us/item/3256807058360209.html> |
+| Potentiometer | 1 | Potentiomenter 47K/50K (mono or stereo) | <https://www.aliexpress.us/item/2251832675872559.html> |
 | Tactile Switch angle | 3 | 6x6x15 (3 - back buttons) | <https://www.aliexpress.us/item/3256809907015472.html> |
 | Tactile Switch | 3 | 6x6x13 (3 - oled buttons) | <https://www.aliexpress.us/item/3256805862813072.html> |
 | Tactile Switch | 2 | 6x6x4.3 (2 - ESP buttons) | <https://www.aliexpress.us/item/3256805862813072.html> |
@@ -66,6 +67,7 @@
 | R19 | 1 | 470K | Resistor 1/4w 7.62mm_Horizontal |
 | R20, R21 | 2 | 2K7 | Resistor 1/4w 7.62mm_Horizontal |
 | R24 | 1 | 220K | Resistor 1/4w 7.62mm_Horizontal |
+| R26 | 1 | 18K | Resistor 1/4w 7.62mm_Horizontal |
 | R33 | 1 | 3K3 | Resistor 1/4w 7.62mm_Horizontal |
 | R34, R35, R36, R41 | 4 | 470R | Resistor 1/4w 7.62mm_Horizontal |
 | R37 | 1 | 220R | Resistor 1/4w 7.62mm_Horizontal |
