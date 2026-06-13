@@ -1,0 +1,219 @@
+(footprint "Amp5128"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "AMP**"
+		(at 0 2.5828 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "561dff06-a8c4-43e2-9485-700e1b350c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Amp5128"
+		(at 0 1.0828 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49726678-3511-4099-86ef-439f0b4fa35c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89646dad-b6ef-4b75-92de-f5d4451cd064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a6e53a0-44f1-4a19-9bad-1a62ef2e5a91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.3152 7.112)
+		(end -7.3152 -4.7498)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75694bd7-fa8c-4627-9ea8-0310babe96a7")
+	)
+	(fp_line
+		(start 7.5438 -4.7498)
+		(end -7.3152 -4.7498)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c6802f0-d9a8-4063-aefd-efb7024df4ba")
+	)
+	(fp_line
+		(start 7.5438 7.112)
+		(end -7.3152 7.112)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2597daf-577b-4e4c-b22b-8750aaf89f28")
+	)
+	(fp_line
+		(start 7.5438 7.112)
+		(end 7.5438 -4.7498)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12292fdd-47f4-448f-9734-ddfc225d6627")
+	)
+	(fp_line
+		(start -7.3984 -4.826)
+		(end -7.3984 7.174)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21f9c266-17ab-4a63-9f55-776db91b98f4")
+	)
+	(fp_line
+		(start -7.3984 -4.826)
+		(end 7.62 -4.826)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c96be8c-9177-47a9-9240-463cef2d9606")
+	)
+	(fp_line
+		(start -7.38 7.174)
+		(end 7.62 7.174)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8129f7f6-e338-4f49-98ed-11710157a33b")
+	)
+	(fp_line
+		(start 7.62 -4.826)
+		(end 7.62 7.174)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e441ca8-8967-4eb9-a971-50651e46a8a1")
+	)
+	(fp_line
+		(start 6.164406 6.362306)
+		(end 6.804406 6.362306)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5ed07e1-9e8c-4540-ade1-1ef82c894e10")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.4172 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7bf19076-38d4-4353-94a1-eaccca58b79e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.215594 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "355bd1c4-5319-4b22-b755-48134dbea97c")
+	)
+	(pad "2" thru_hole circle
+		(at -3.675594 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e87eb073-3e63-4121-8bb3-b5c9aac63534")
+	)
+	(pad "3" thru_hole circle
+		(at -1.135594 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aad8d501-3ded-4a78-ace1-47efd98a55ac")
+	)
+	(pad "4" thru_hole circle
+		(at 1.404406 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e19870b0-7ce5-4f5b-a2b0-be444608f439")
+	)
+	(pad "5" thru_hole circle
+		(at 3.944406 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcb4bc05-0164-49fe-a1be-52227a7d9242")
+	)
+	(pad "6" thru_hole circle
+		(at 6.484406 6.042306 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "249b7cb9-29bc-4de2-a274-f8a54f0f4098")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/AMP5128/amp5128.STEP"
+		(offset
+			(xyz -0.1 0.61 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

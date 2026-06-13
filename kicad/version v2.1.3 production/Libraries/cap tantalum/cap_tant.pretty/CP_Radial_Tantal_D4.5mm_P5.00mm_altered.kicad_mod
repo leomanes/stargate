@@ -1,0 +1,262 @@
+(footprint "CP_Radial_Tantal_D4.5mm_P5.00mm_altered"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial_Tantal series, Radial, pin pitch=5.00mm, diameter=4.5mm, height=10mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
+	(tags "CP Radial_Tantal series Radial pin pitch 5.00mm diameter 4.5mm height 10mm Tantal Electrolytic Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "2439b9e4-bebb-4cae-ad46-f7574b242b31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CP_Radial_Tantal_D4.5mm_P5.00mm_altered"
+		(at 2.5 3.5 0)
+		(layer "F.Fab")
+		(uuid "e4d48688-a76b-4b3f-82e7-4f6f2464ffd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39519f95-57e3-42f4-9b75-cfce1b0135f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ee677e2-6fa4-4a76-8b9f-c0f2d399dd52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.037288 -1.335)
+		(end 0.412712 -1.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "234e8242-baf6-40da-9d3b-2206dbcf04bc")
+	)
+	(fp_line
+		(start 0.187712 -1.56)
+		(end 0.187712 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6661479e-62f2-42b6-954b-06d0213bfcd2")
+	)
+	(fp_arc
+		(start 0.380259 -1.06)
+		(mid 2.5 -2.37)
+		(end 4.619741 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5795c033-c5bd-42f8-af3c-d0d6afab1609")
+	)
+	(fp_arc
+		(start 4.619741 1.06)
+		(mid 2.5 2.37)
+		(end 0.380259 1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ceb904db-cca6-4eae-b052-f50456a9056b")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5659262-4f18-4d2b-81e6-a0d183cb3c71")
+	)
+	(fp_line
+		(start -1 1)
+		(end 0.2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a994e31-b2c2-4b0e-95d9-7497f4bf1e8a")
+	)
+	(fp_line
+		(start 0.2 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d6fd375-e92b-44cd-b6e2-a5035564d4ee")
+	)
+	(fp_line
+		(start 4.8 1)
+		(end 6 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f49289e4-d80b-4b9d-9cb9-bb50cce3dd3b")
+	)
+	(fp_line
+		(start 6 -1)
+		(end 4.8 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "085e541b-6557-47a1-9430-913836e361ee")
+	)
+	(fp_line
+		(start 6 1)
+		(end 6 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53f19c71-04a0-4b96-bddb-94259c8db6f9")
+	)
+	(fp_arc
+		(start 0.2 -1)
+		(mid 2.5 -2.507987)
+		(end 4.8 -0.999999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7704ac23-e022-4de6-af3a-21eb79381547")
+	)
+	(fp_arc
+		(start 4.8 0.999999)
+		(mid 2.5 2.507986)
+		(end 0.2 0.999998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e2919da-2e98-4e78-8482-2212423ae900")
+	)
+	(fp_line
+		(start 0.58192 -0.9775)
+		(end 1.03192 -0.9775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd7018f0-821e-4824-9cfd-8282719d8c8a")
+	)
+	(fp_line
+		(start 0.80692 -1.2025)
+		(end 0.80692 -0.7525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4784a8f9-8028-48ff-a2c6-0e8f82739263")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "16f03588-9881-40dd-b52c-4bc1c48d4476")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "a7457850-eec7-4abe-9c40-d705a8fe1f33")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "cbb1f3f4-9004-45a6-baa7-0afe3b450c8e")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a656ef9-c100-4adc-a691-2dc8f7b97f17")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_Tantal_D4.5mm_P5.00mm.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/Cap/cap5mm.step"
+		(offset
+			(xyz 0.5 1.25 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
