@@ -1,24 +1,26 @@
 # Stargate Parts List & Links (V2.1.3)
 
+[Assembly spreadsheet](<stargate parts list and links_v2.1.3.xlsx>) · [Production BOM (CSV)](<../kicad/version v2.1.3 production/production/Stargate_v2.1.3_bom.csv>)
+
 > I have no idea if the links listed here will work, if the parts are from a reliable vendor or if they are of good quality. Please do your own research.
 
 ## Modules & Major Parts
 
 | Reference | Qty | Value | Link example |
 |---|---|---|---|
-| Fuse | 1 | 1.5A | <https://www.aliexpress.us/item/2255801012350097.html> |
-| Fuse | 1 | 0.5A | <https://www.aliexpress.us/item/2255801012350097.html> |
+| F1 | 1 | 1.5A main fuse | <https://www.aliexpress.us/item/2255801012350097.html> |
+| F2 | 1 | 0.5A joystick fuse | <https://www.aliexpress.us/item/2255801012350097.html> |
 | Relay | 1 | HFD4-5 | <https://www.aliexpress.us/item/3256806642059309.html> |
 | OLED Screen | 1 | SSD1306 128x32 | <https://www.aliexpress.us/item/3256810382441111.html> |
 | DIN8 | 1 | 8 pins | <https://www.aliexpress.us/item/3256803009734845.html> |
 | OVP | 1 | Overvoltage Protection 5V | <https://www.aliexpress.us/item/3256810199010529.html> |
 | Clock Gen | 1 | SI5351 | <https://www.aliexpress.us/item/3256809498025225.html> |
 | YM2149F | 1 | Yamaha audio chip (AY-3-8910 was not tested) | <https://www.aliexpress.us/item/3256805857392394.html> |
-| 3.57MHz | 1 | oscilator module xtal | <https://www.aliexpress.us/item/2251832699611090.html> |
+| Y1 | 1 | 3.579545 MHz DIP-8 oscillator module | <https://www.aliexpress.us/item/2251832699611090.html> |
 | dd1718pa | 1 | Buck module +-12V (NO PIN option) | <https://www.aliexpress.us/item/3256807659398693.html> |
 | RGB strip | 1 | 5V (2.7mm), 1m | <https://www.aliexpress.us/item/3256806542970058.html> |
 | Amplifier | 1 | Onboard Amp 5128 | <https://www.aliexpress.us/item/3256807058360209.html> |
-| Potentiometer | 1 | Potentiomenter 47K/50K (mono or stereo) | <https://www.aliexpress.us/item/2251832675872559.html> |
+| RV2 | 1 | 47K/50K volume potentiometer (mono or stereo) | <https://www.aliexpress.us/item/2251832675872559.html> |
 | Tactile Switch angle | 3 | 6x6x15 (3 - back buttons) | <https://www.aliexpress.us/item/3256809907015472.html> |
 | Tactile Switch | 3 | 6x6x13 (3 - oled buttons) | <https://www.aliexpress.us/item/3256805862813072.html> |
 | Tactile Switch | 2 | 6x6x4.3 (2 - ESP buttons) | <https://www.aliexpress.us/item/3256805862813072.html> |
@@ -42,6 +44,8 @@
 
 ## Passive Components
 
+Quantities cover the full v2.1.3 board. Leave DNP positions empty. The [basic build guide](../build/README.md) identifies the parts you can omit for a build without Wi-Fi or the ±12 V cartridge supply.
+
 - **Resistors:** 1/4W
 - **Capacitors:** C5–C6 ≥ 25V and the rest is ≥ 16V
 
@@ -50,16 +54,16 @@
 | C1, C2, C3 | 3 | DNP | NA |
 | C4 | 1 | 470uF | Capacitor Electrolytic: lead space 5mm / Height: <10mm |
 | C5, C6 | 2 | 220uF | Capacitor Electrolytic: lead space 3.5mm / Height: <10mm |
-| C7, C8, C9, C10, C11, C12, C15, C16, C18, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C36, C43, C44, C45, C46, C52, C57, C58, C31, C32, C33, C34, C35 | 28 | 100nF | Capacitor Tantalum or Multilayer: lead space 5mm |
+| C7, C8, C9, C10, C11, C12, C15, C16, C18, C20, C21, C22, C23, C24, C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C43, C44, C45, C46, C52, C57, C58 | 33 | 100nF | Capacitor Tantalum or Multilayer: lead space 5mm |
 | C13, C14, C42 | 3 | DNP | NA |
 | C17 | 1 | 220uF | Capacitor Electrolytic: lead space 2.5mm / Height: <8mm |
-| C19, C37, C38, C39, C40, C41, C47, C50, C51, C54, C55, C59 | 12 | 10uF | Capacitor Electrolytic: lead space 2.5mm / Height: <8mm |
+| C19, C37, C38, C39, C40, C41, C47, C50, C51, C54, C55, C59, C60 | 13 | 10uF | Capacitor Electrolytic: lead space 2.5mm / Height: <8mm |
 | C48, C49 | 2 | 22nF | Capacitor Tantalum or Multilayer: lead space 2.5mm |
 | C53 | 1 | up to 22nF | Capacitor Tantalum or Multilayer: lead space 5mm (internal amp - high frequency cut) |
 | C56 | 1 | DNP | - |
-| R1, R13, R42, R43, R34, R35, R36, R41 | 4 | 470R | Resistor 1/4w 7.62mm_Horizontal |
+| R1, R13, R34, R35, R36, R41, R42, R43 | 8 | 470R | Resistor 1/4w 7.62mm_Horizontal |
 | R2, R3, R4, R5, R6, R7, R18, R22, R27, R28, R29, R30, R31, R32, R39, R44 | 16 | 10K | Resistor 1/4w 7.62mm_Horizontal |
-| R8, R9, R15, R16, R23, R26 | 6 | 4K7 | Resistor 1/4w 7.62mm_Horizontal |
+| R8, R9, R15, R16, R23 | 5 | 4K7 | Resistor 1/4w 7.62mm_Horizontal |
 | R10, R11 | 2 | 20K | Resistor 1/4w 7.62mm_Horizontal |
 | R12 | 1 | 2K2 | Resistor 1/4w 7.62mm_Horizontal |
 | R14, R25, R40 | 3 | 1K | Resistor 1/4w 7.62mm_Horizontal |
@@ -67,13 +71,46 @@
 | R19 | 1 | 470K | Resistor 1/4w 7.62mm_Horizontal |
 | R20, R21 | 2 | 2K7 | Resistor 1/4w 7.62mm_Horizontal |
 | R24 | 1 | 220K | Resistor 1/4w 7.62mm_Horizontal |
-| R26 | 1 | 18K | Resistor 1/4w 7.62mm_Horizontal |
+| R26 | 1 | 18K (12K for two speakers) | Resistor 1/4w 7.62mm_Horizontal, sets maximum internal speaker volume |
 | R33 | 1 | 3K3 | Resistor 1/4w 7.62mm_Horizontal |
-| R34, R35, R36, R41 | 4 | 470R | Resistor 1/4w 7.62mm_Horizontal |
-| R37 | 1 | 220R | Resistor 1/4w 7.62mm_Horizontal |
+| R37 | 1 | 220R for a blue Wi-Fi LED, 470R for other colors | Resistor 1/4w 7.62mm_Horizontal |
 | R38 | 1 | 1M | Resistor 1/4w 7.62mm_Horizontal |
+| R45 | 1 | 150R | Resistor 1/4w 7.62mm_Horizontal |
+| RN1, RN2 | 2 | 4K7 | Bussed resistor network, 9-pin SIP |
+| RN3 | 1 | 10K | Bussed resistor network, 9-pin SIP |
+| RN4 | 1 | 10K | Bussed resistor network, 5-pin SIP |
+| RN5 | 1 | 4K7 | Bussed resistor network, 5-pin SIP |
+| RV1 | 1 | 50K | RM-065 through-hole trimmer for cassette/Bluetooth monitor level |
+
+## Diodes, LEDs and Transistors
+
+| Reference | Qty | Value | Footprint |
+|---|---|---|---|
+| D1 | 1 | Red power LED | 5mm through-hole |
+| D2 | 1 | 1N5817 | DO-41 axial |
+| D3, D9, D10, D11 | 4 | 1N4148 | DO-35 axial |
+| D4 | 1 | Wi-Fi LED | 3mm through-hole, see R37 for color options |
+| D5, D6 | 2 | CAPS LED positions | 3mm through-hole |
+| D7, D8 | 2 | KANA LED positions | 3mm through-hole |
+| Q1, Q2 | 2 | BC558 | TO-92, PNP |
+| Q3 | 1 | BC548 | TO-92, NPN |
+
+## Connectors and Headers
+
+| Reference | Qty | Value | Footprint |
+|---|---|---|---|
+| J4, J5 | 2 | MSX cartridge slot | 50-contact card-edge connector |
+| J6 | 1 | Audio output | Right-angle RCA jack |
+| J7, J8 | 2 | Joystick port | Male DE-9, board mount |
+| J10, J11 | 2 | I²C display and UART | 1×4 pin header, 2.54mm pitch |
+| J17 | 1 | RGB output | 3-pin fan header, 2.54mm pitch |
+| J20, J21 | 2 | Speaker connections | 1×2 pin header, 2.54mm pitch |
+| J22 | 1 | 5V connection | 1×2 pin header, 2.54mm pitch |
+| JP1 | 1 | Wi-Fi power jumper | 1×2 pin header, 2.54mm pitch, with shunt |
 
 ## Integrated Circuits
+
+On released v2.1.3 boards, U20 and U26 are marked **74HC07** and take **74LS07**. U27 is marked **74HC145** and takes **74LS145**. For the 5 V glue logic, HCT accepts TTL input levels. Before mixing LS and HC, check that every chip driven by an LS output accepts a TTL high, including cartridge inputs on slot-select lines.
 
 | IC Reference | Qty | Value | Alternates |
 |---|---|---|---|
